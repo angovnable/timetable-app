@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/timetable-app/',  // Must match your GitHub repo name
+  base: '/',  // Must match your GitHub repo name
   plugins: [
     react(),
     VitePWA({
